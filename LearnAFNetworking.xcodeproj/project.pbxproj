@@ -15,6 +15,8 @@
 		540EF87F2161CC2700C28937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540EF87E2161CC2700C28937 /* main.m */; };
 		540EF8892161CC2700C28937 /* LearnAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540EF8882161CC2700C28937 /* LearnAFNetworkingTests.m */; };
 		540EF8942161CC2700C28937 /* LearnAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540EF8932161CC2700C28937 /* LearnAFNetworkingUITests.m */; };
+		540EF8A3216316BB00C28937 /* KLNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 540EF8A2216316BB00C28937 /* KLNetworkUtil.m */; };
+		E4AC1A0E710C76FC3392B2D1 /* libPods-LearnAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 327A8812521745A8FC1F7FC8 /* libPods-LearnAFNetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30DFB543AD5946E7D926913B /* Pods-LearnAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnAFNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnAFNetworking/Pods-LearnAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		327A8812521745A8FC1F7FC8 /* libPods-LearnAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnAFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		540EF86C2161CC2600C28937 /* LearnAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		540EF86F2161CC2600C28937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		540EF8702161CC2600C28937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		540EF88F2161CC2700C28937 /* LearnAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540EF8932161CC2700C28937 /* LearnAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnAFNetworkingUITests.m; sourceTree = "<group>"; };
 		540EF8952161CC2700C28937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540EF8A1216316BA00C28937 /* KLNetworkUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLNetworkUtil.h; sourceTree = "<group>"; };
+		540EF8A2216316BB00C28937 /* KLNetworkUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLNetworkUtil.m; sourceTree = "<group>"; };
+		7B408362F4DA0EDCF22C3B7A /* Pods-LearnAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnAFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnAFNetworking/Pods-LearnAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AC1A0E710C76FC3392B2D1 /* libPods-LearnAFNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				540EF8872161CC2700C28937 /* LearnAFNetworkingTests */,
 				540EF8922161CC2700C28937 /* LearnAFNetworkingUITests */,
 				540EF86D2161CC2600C28937 /* Products */,
+				F5A12E6C5FEAF7D2108F61F8 /* Pods */,
+				EA7467CC01C777874FDB26D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +120,8 @@
 				540EF87A2161CC2700C28937 /* LaunchScreen.storyboard */,
 				540EF87D2161CC2700C28937 /* Info.plist */,
 				540EF87E2161CC2700C28937 /* main.m */,
+				540EF8A1216316BA00C28937 /* KLNetworkUtil.h */,
+				540EF8A2216316BB00C28937 /* KLNetworkUtil.m */,
 			);
 			path = LearnAFNetworking;
 			sourceTree = "<group>";
@@ -132,6 +144,23 @@
 			path = LearnAFNetworkingUITests;
 			sourceTree = "<group>";
 		};
+		EA7467CC01C777874FDB26D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327A8812521745A8FC1F7FC8 /* libPods-LearnAFNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A12E6C5FEAF7D2108F61F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B408362F4DA0EDCF22C3B7A /* Pods-LearnAFNetworking.debug.xcconfig */,
+				30DFB543AD5946E7D926913B /* Pods-LearnAFNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 540EF8982161CC2700C28937 /* Build configuration list for PBXNativeTarget "LearnAFNetworking" */;
 			buildPhases = (
+				1AA28B8102DF2EED7A0041B2 /* [CP] Check Pods Manifest.lock */,
 				540EF8682161CC2600C28937 /* Sources */,
 				540EF8692161CC2600C28937 /* Frameworks */,
 				540EF86A2161CC2600C28937 /* Resources */,
@@ -257,12 +287,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AA28B8102DF2EED7A0041B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnAFNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		540EF8682161CC2600C28937 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				540EF8742161CC2600C28937 /* ViewController.m in Sources */,
+				540EF8A3216316BB00C28937 /* KLNetworkUtil.m in Sources */,
 				540EF87F2161CC2700C28937 /* main.m in Sources */,
 				540EF8712161CC2600C28937 /* AppDelegate.m in Sources */,
 			);
@@ -433,6 +485,7 @@
 		};
 		540EF8992161CC2700C28937 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B408362F4DA0EDCF22C3B7A /* Pods-LearnAFNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +503,7 @@
 		};
 		540EF89A2161CC2700C28937 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DFB543AD5946E7D926913B /* Pods-LearnAFNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
